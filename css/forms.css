@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	margin:15px 0;
+	background-color:#eee; /* dfdae7  bbb3cb  a51d8c */
+	font-family: 'Advent Pro', Arial, sans-serif;
+	font-size:18px;
+	color:#333;
+}
+
+a { outline:none; }
+
+form {
+	margin:0;
+	padding:0;
+}
+
+.rounded {
+	behavior: url(border-radius.htc);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.fields {
+	border:solid 2px #a82159;
+	color:#999;
+	font-size:16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:350px;
+	padding:5px 10px;
+	padding-left:40px;
+	outline:none;
+	/*text-indent:30px;*/
+	text-align:left;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	background-position:8px 4px;
+}
+
+h1 {
+	margin:0;
+	padding-bottom:5px;
+	color:#a82159;
+	font-size:32px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	border-bottom:dotted 1px #999;
+	text-shadow: 2px 2px 0px #bbb3cb;
+	filter: DropShadow(Color=#bbb3cb,OffX=2,OffY=2,Positive=0);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#bbb3cb,direction=135,strength=2);
+}
+
+.link {
+	color:#a82159;
+	font-weight:bold;
+}
+
+.link2 {
+	color: #a82159;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.link3 {
+	color:#a82159;
+}
+
+.txt {
+	color:#333;
+	font-size:18px;
+}
+
+.txt-color {
+	color:#fff;
+}
+
+.link-mas {
+	color:#57112d;
+	font-size:10px;
+	text-decoration:none;
+}
+
+.but {
+	background-color:#a82159;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	border:solid 2px #bbb3cb;
+	padding:4px 20px;
+	cursor:pointer;
+	outline:none;
+}
+
+.txt-error-msg {
+	color:#57112d;
+	font-size:14px;
+}

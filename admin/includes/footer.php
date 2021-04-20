@@ -1,0 +1,1 @@
+<div id="footer"><!-- Destiny Church International (DCI). Todos los derechos reservados &copy;. --></div>
